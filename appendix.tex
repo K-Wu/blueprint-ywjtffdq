@@ -4,14 +4,9 @@
 \pagenumbering{Roman}
 \section{附录}
 \subsection{说明}
-\begin{verbatim}
---------------------------------------来源-------------------------------------
-1XZH的某高级笔记，原文A3双面打印，共7页（A4），字体宋体（目测），大小小四（目测）(2011-05-05)
-2XZH上课口述内容（2011-05-05后）
-3笔记本（2011-05-05前含2011-05-05）
-4XZH某高级U盘中的高级课件包中的《黔之驴》（2011-05-24)
+\begin{verbatim} --------------------------------------来源-------------------------------------
+参见References
 ------------------------------------Lai Yuan-----------------------------------
-
 ------------------------------------修订笔记-----------------------------------
 *************************************按页分************************************
 第一页：从一/1～二/5
@@ -61,8 +56,10 @@ Version3.1
 时间以修改本文当时间为准，而与实际获取内容时间无关！
 Version4.0
 2011-05-26修订五：说明顺序，说明文语言准确性，说明文语言准确性
+Version4.5
+2011-06-14改为latex，并且修改部分内容
 Version5.0
-2011-06-11改为latex，并且修改部分内容
+2011-06-22latex的新定义\hatsection.\hatsubsection
 -----------------------------------What's new----------------------------------
 文言文部分
 翻译古文，首要的是要掌握“补”、“顺”、“选”、“活”四种方法。
@@ -72,17 +69,26 @@ Version5.0
 活——对于一些古今异义词要用现代词汇替换。
 （尽可能字字落实）
 \end{verbatim}
+本文档分为四个部分\\
+四个部分\&页数信息\\
+概述(abstract)\pageref{abstract}\\
+目录(main)\pageref{contents}\\
+正文(main)\pageref{main}\\
+附录(appendix)\pageref{appendix}\\
+注：若显示为??则说明该文档不包括这一内容
 \newpage
 \subsection{声明}
 \begin{description}
 \item[HAWX AT TEAM]的入门作品2
 \item[蓝本计划]YWJTFFDQ
-\item[源码支持]\LaTeXe  \LaTeX  \TeX
+\item[源码支持]\XeTeX \LaTeXe  \LaTeX  \TeX
+\item[关键字符串]$\backslash$input
+\item[关键字符串2]\% \# -*- coding: utf-8 -*-
 \item[编译软件]\emph{Texworks}
 \item[编译编码]\emph{UTF-8}
 \item[编译方式]\emph{XeLaTeX+MakeIndex+BibTeX}
 \item[中文支持]\emph{编译方式+XeLaTeX宏包}
-\item[XeLaTex宏包]\emph{xeCJK}
+\item[XeLaTeX宏包]\emph{xeCJK}
 \item[所用宏包]\footnote{按加载顺序，更改顺序可能会编译出错！}
 \begin{enumerate}
 \item xeCJK
@@ -129,4 +135,4 @@ HAWX AT TEAM\\
 在此，对上述个人表示感谢！\\
 HAWX AT TEAM\\
 \today\\
-The end. 
+The end. \label{appendix} 
