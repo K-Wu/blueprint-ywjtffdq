@@ -1,0 +1,50 @@
+% # -*- coding: utf-8 -*-
+%%input
+%%abstract,main,appendix
+\documentclass{article}
+%中文支持宏包
+\usepackage{xeCJK}
+\setCJKmainfont[BoldFont=SimHei,ItalicFont=SimHei]{SimSun}
+%\setCJKsansfont[BoldFont=SimHei]{SimHei}
+\setmathrm{SimHei}
+%\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{url}
+%\setmainfont[BoldFont=SimHei,ItalicFont=SimHei]{SimSun}
+%\setsansfont[BoldFont=SimHei]{SimHei}
+%\setmonofont{NSimSun}
+\XeTeXlinebreaklocale"zh"
+\XeTeXlinebreakskip= 0pt plus 1pt
+%中文支持宏包
+\usepackage{hyperref}
+%\hypersetup{hyperfootnotes=true}
+\hypersetup{colorlinks=true}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{ulem}
+\usepackage[left=1.6cm,right=2cm,top=1.6cm,bottom=2cm]{geometry}
+\makeatletter
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\makeatother
+\newcommand{\hatsubsection}[2][\hatn{ver0}]{\subsection{\texorpdfstring{#2#1}{#2}}}
+\newcommand{\hatsubsubsection}[2][\hatn{ver0}]{\subsubsection{\texorpdfstring{#2#1}{#2}}}
+\newcommand{\hatb}[1]{\colorbox{blue!100}{#1}}
+\newcommand{\hatx}[1]{\colorbox{yellow!100}{#1}}
+\newcommand{\hatm}[1]{\colorbox{green!100}{#1}}
+\newcommand{\hatn}[1]{\colorbox{violet!100}{#1}}
+
+\title{语文解题方法大全OCR}
+\author{HAWX AT TEAM\thanks{一份完整的致谢名单在PAGE\pageref{thanks}上}}
+\date{May 2011}
+\begin{document}
+
+\input{abstract}
+
+\input{main}
+
+\input{appendix}
+\end{document}
