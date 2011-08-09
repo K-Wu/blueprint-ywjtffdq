@@ -16,15 +16,17 @@
 %中文支持宏包
 \renewcommand{\baselinestretch}{1.38}
 \setlength{\parindent}{0em} % 设置长度.这里指设置段首缩进的长度.2em指两个字.
+%\usepackage{hyperref}
+%\hypersetup{colorlinks=true}
 \usepackage{hyperref}
 \hypersetup{colorlinks=true}
-\usepackage{paralist}
+\hypersetup{linkcolor=black,anchorcolor=black,citecolor=black}
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{ulem}
 \usepackage[left=1.6cm,right=2cm,top=1.6cm,bottom=2cm]{geometry}
 \usepackage{ifthen}
-
+\usepackage{paralist}
 
 
 \makeatletter
@@ -61,16 +63,20 @@
 
 
 
-\newcommand{\hatsubsection}[2][\hatn{ver0}]{\subsection{\texorpdfstring{#2#1}{#2}}}
-\newcommand{\hatsubsubsection}[2][\hatn{ver0}]{\subsubsection{\texorpdfstring{#2#1}{#2}}}
+\newcommand{\hatsubsection}[2][\hatn{ver0}]{\subsection{\texorpdfstring{#2#1}{#2}}\label{#2}}
+\newcommand{\hatsubsubsection}[2][\hatn{ver0}]{\subsubsection{\texorpdfstring{#2#1}{#2}}\label{#2}}
+\newcommand{\superref}[1]{#1(在\pageref{#1}页的\ref{#1}上)}
 
 
+%\newcommand{\hatb}[1]{\colorbox{blue!100}{#1}}
+%\newcommand{\hatx}[1]{\colorbox{yellow!100}{#1}}
+%\newcommand{\hatm}[1]{\colorbox{green!100}{#1}}
+%\newcommand{\hatn}[1]{\colorbox{violet!100}{#1}}
 
-\newcommand{\hatb}[1]{\colorbox{blue!100}{#1}}
+\newcommand{\hatb}[1]{\colorbox{orange!100}{#1}}
 \newcommand{\hatx}[1]{\colorbox{yellow!100}{#1}}
-\newcommand{\hatm}[1]{\colorbox{green!100}{#1}}
-\newcommand{\hatn}[1]{\colorbox{violet!100}{#1}}
-
+\newcommand{\hatm}[1]{\colorbox{cyan!100}{#1}}
+\newcommand{\hatn}[1]{\colorbox{lightgray!100}{#1}}
 
 
 \newcommand{\noa}{X}
@@ -79,6 +85,7 @@
 \newcommand{\nobhat}{说明}
 \newcommand{\BB}{Beta}
 \newcommand{\noc}{此处的空白恰到好处，正是本文档的精华之处}
+\newcommand{\noticewave}{留意波浪线\\加波浪线内容未确定}
 \newcommand{\BC}{It's a Beta version.}
 \newcommand{\noprint}{此份文档不被用来打印。\\This file/document is not used to print.}
 \newcommand{\origintal}{此份文档是原始的。\\This file/document is ORIGINTAL.}
@@ -96,7 +103,6 @@
 \newlength{\seplength}
 \settowidth{\seplength}{*}
 \newcommand{\seperator}{\whiledo{\lengthtest{\linewidth>\seplength}{\linewidth-\seplength-1mm} *}}
-
 
 
 \typein[\whatfiletoinput]{0.type in a configuration.``stable''``beta''``custom''}
