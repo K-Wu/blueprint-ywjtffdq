@@ -10,7 +10,6 @@
 %\usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
-\usepackage{url}
 %\setmainfont[BoldFont=SimHei,ItalicFont=SimHei]{SimSun}
 %\setsansfont[BoldFont=SimHei]{SimHei}
 %\setmonofont{NSimSun}
@@ -37,14 +36,23 @@
 \newcommand{\hatm}[1]{\colorbox{green!100}{#1}}
 \newcommand{\hatn}[1]{\colorbox{violet!100}{#1}}
 
-\title{语文解题方法大全OCR}
-\author{HAWX AT TEAM\thanks{一份完整的致谢名单在PAGE\pageref{thanks}上}}
-\date{May 2011}
-\begin{document}
+\newcommand{\hatauthor}[1][HAWX AT TEAM\thanks{一份完整的致谢名单在A.3致谢PAGE\pageref{thanks}上}]{\author{#1}}
+\newcommand{\hatdate}[1][May 2011]{\date{#1}}
 
-\input{abstract}
+\typein[\typeinversion]{version with numbers}
+\typein[\typeinauthor]{Author's name}
+\typein[\typeindate]{Date}
+
+\title{语文解题方法大全 Ver \typeinversion}
+\hatauthor[\typeinauthor]
+\hatdate[\typeindate]
+
+\begin{document}
+\pagenumbering{alph}
+\maketitle
+%\input{abstract}
 
 \input{main}
 
-\input{appendix}
-\end{document}
+%\input{appendix}
+\end{document} 
