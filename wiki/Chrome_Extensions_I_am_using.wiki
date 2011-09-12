@@ -1,0 +1,320 @@
+'''Generated:''' Mon, 12 Sep 2011 08:34:24 GMT
+
+'''User Agent:''' Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.5 Safari/535.2
+
+'''Extensions: 35''' 
+* [https://chrome.google.com/webstore/detail/aeaoofnhgocdbnbeljkmbjdmhbcokfdb Mouse Stroke] v1.9.5.2
+
+* [https://chrome.google.com/webstore/detail/bnhjedgfogckebfhnlicnkbdjlmpibck Stash] v0.2.4
+
+* [https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb Adblock Plus for Google Chrome™ (Beta)] v1.1.4
+
+* [https://chrome.google.com/webstore/detail/chdafcbnfkfenoeejpaeenpdamhmalhe Share Extensions] v0.0.9
+
+* [https://chrome.google.com/webstore/detail/cpecbmjeidppdiampimghndkikcmoadk Type-ahead-find] v0.3.9
+
+* [https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb Vimium] v1.29
+
+* [https://chrome.google.com/webstore/detail/dmglolhoplikcoamfgjgammjbgchgjdd Google Tasks (by Google)] v1.0
+
+* [https://chrome.google.com/webstore/detail/ehgdacjejmbklleccjegbbaklhhoedlh CreQQ] v1.0.2
+
+* [https://chrome.google.com/webstore/detail/ejhdjfmkegkpenillofhpmikailkjpkb 一键禁用所有扩展-加强版] v1.2.1
+
+* [https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg Edit This Cookie] v0.14.2
+
+* [https://chrome.google.com/webstore/detail/ggalbojcechgnfflkndfegfffodfmjaj AntiProtetor] v1.0.1
+
+* [https://chrome.google.com/webstore/detail/ghgabhipcejejjmhhchfonmamedcbeod Click&Clean] v7.6.0.0
+
+* [https://chrome.google.com/webstore/detail/hcjdanpjacpeeppdjkppebobilhaglfo SearchPreview] v2.0
+
+* [https://chrome.google.com/webstore/detail/joiigeomfncembaeikpogcipaoddddhc Google Cache Link Protector] v1.0.2
+
+* [https://chrome.google.com/webstore/detail/kfbkjmofblefhdbabmjfecidcglggoaa Chrome Mouse Gesture] v1.0.5.2
+
+* [https://chrome.google.com/webstore/detail/kjonnhfhhgmfkodkniidoplfcoidfabp Chrome extension Drawer(beta)] v0.5.5.0
+
+* [https://chrome.google.com/webstore/detail/lfkgmnnajiljnolcgolmmgnecgldgeld Smooth Gestures] v0.15.4.5
+
+* [https://chrome.google.com/webstore/detail/ljhooappahaeilmbekgcokgjjplambgo Two-Click JDownloader] v2.6.5
+
+* [https://chrome.google.com/webstore/detail/mdbmphibmlglombjopjkkdlahmkiileb Tweach] v1.3.0
+
+* [https://chrome.google.com/webstore/detail/mfjkgbjaikamkkojmakjclmkianficch 下载助手] v5.0.2
+
+* [https://chrome.google.com/webstore/detail/mgdnblnolcinnndenjnollpiplgkbjcn Better Gmail] v2.7.3
+
+* [https://chrome.google.com/webstore/detail/mgljgiacemcbnibkkmbolnljeffaadna Minimalist for Google Calendar™] v0.7.5
+
+* [https://chrome.google.com/webstore/detail/nlbjncdgjeocebhnmkbbbdekmmmcbfjd RSS Subscription Extension（由 Google 提供）] v2.1.3
+
+* [https://chrome.google.com/webstore/detail/nnbmlagghjjcbdhgmkedmbmedengocbn Docs PDF/PowerPoint Viewer（由 Google 提供）] v3.5
+
+* [https://chrome.google.com/webstore/detail/nnkkiklippgkdecejjipaandhhdocckb Web Developer 中文版] v0.3.1.2
+
+* [https://chrome.google.com/webstore/detail/oddhbkghjoccbljmagcgoklbfdjeiinb Minimalist for Gmail™] v1.7.42
+
+* [https://chrome.google.com/webstore/detail/ohmcjnlhiaobipnkdonkcpomgkpgfdch There's a web app for that] v1.0
+
+* [https://chrome.google.com/webstore/detail/pgpppbiipcfcldpgcjlhoehdffdjjall Minimalist for Google Reader™] v0.5.12
+
+* [https://chrome.google.com/webstore/detail/plfbafagepmnjfhgoaakiobjffddcnbd Chrome Update Notifier Plus] v0.5
+
+* [https://chrome.google.com/webstore/detail/omiekjeapoonbhiemenfoccbdpeagdah Cloud Save] v1.3.6
+
+* [https://chrome.google.com/webstore/detail/lagmbbmdlgjncefjognkcadapmmkmphe Simple Scrollbars X] v10
+
+* [https://chrome.google.com/webstore/detail/dpidngahgomcidafpejnkmiafbnfkcel Google Track Me] v1.0.0
+
+* [https://chrome.google.com/webstore/detail/geadncdikdihjopleebicichbhjlgecp Google Music Applet] v1.1
+
+* [https://chrome.google.com/webstore/detail/alcocjjolldonmcllfpknankfjfbajgh ClickLess: Chrome™ Keyboard Shortcut Ref.] v1.2.1
+
+* [https://chrome.google.com/webstore/detail/fpfmklldfnlcblofkhdeoohfppdoejdc Simple Window Saver] v1.3
+
+
+'''Disabled Extensions: 69'''
+* [https://chrome.google.com/webstore/detail/aapbdbdomjkkjkaonfhkkikfgjllcleb Google Translate] v1.2.3.1
+
+* [https://chrome.google.com/webstore/detail/aiieldihphpjggpihpgggmmkjgigjnpd Silence of the Celebs] v1.2.0
+
+* [https://chrome.google.com/webstore/detail/amigcgbheognjmfkaieeeadojiibgbdp TooManyTabs for Chrome] v1.8.0
+
+* [https://chrome.google.com/webstore/detail/bakgcnaldcjegdemmmkkmghcbmliojjd 原文评论支持Google Reader™] v1.0.59
+
+* [https://chrome.google.com/webstore/detail/bakjnmjkpeaegoigplklpcbhdpkcfibd 搜索拐杖 for Google] v2.1.3
+
+* [https://chrome.google.com/webstore/detail/bfbmjmiodbnnpllbbbfblcplfjjepjdn 关灯看视频] v2.0.0.11
+
+* [https://chrome.google.com/webstore/detail/bhmmomiinigofkjcapegjjndpbikblnp WOT] v1.2.2
+
+* [https://chrome.google.com/webstore/detail/bjgjolhpdlgebodaapdafhdnikagbfll drag2up] v2.2.3
+
+* [https://chrome.google.com/webstore/detail/bmogbhmnbehfapbmjlaoflagfobahfli metalmouth voice browser] v1.6.4
+
+* [https://chrome.google.com/webstore/detail/chmimgmjdabgiilljdjfbonifbhiglao AdBlock+ Element Hiding Helper] v1.1.9.18
+
+* [https://chrome.google.com/webstore/detail/cicimfkkbejhggfjaabggafffgdnjgjp QR Code Generator] v1.4.103
+
+* [https://chrome.google.com/webstore/detail/cpngackimfmofbokmjmljamhdncknpmg 网页截图（由Google提供）] v5.0.3
+
+* [https://chrome.google.com/webstore/detail/dbpojpfdiliekbbiplijcphappgcgjfn Ultimate Chrome Flag] v0.3.7
+
+* [https://chrome.google.com/webstore/detail/ddkahgkblobiogkkeedfnjkldecloidi FeedSquares - Supercharge your Google Reader] v1.3.3
+
+* [https://chrome.google.com/webstore/detail/dhgpkiiipkgmckicafkhcihkcldbdeej 维基百科伴侣 - 迷你维基浏览器] v1.7.0
+
+* [https://chrome.google.com/webstore/detail/diggdkbledompbjjbjmalbfeglnkabgn ShowIPv6] v0.2
+
+* [https://chrome.google.com/webstore/detail/dpplabbmogkhghncfbfdeeokoefdjegm SwitchySharp] v1.8.30
+
+* [https://chrome.google.com/webstore/detail/ecpcafinfpjgabomoamkhkgnpgpmdmeo Reader Plus Toolbar button] v2.0.0
+
+* [https://chrome.google.com/webstore/detail/emjphcoeoofohgimppddgblomjbojnnh 网页元素查看器] v1.6.1.0
+
+* [https://chrome.google.com/webstore/detail/fjccknnhdnkbanjilpjddjhmkghmachn 快捷工具（由Google提供）] v1.0.28
+
+* [https://chrome.google.com/webstore/detail/fjmhjjohhiehaoljianalpmfcceojaff Service Pages for Google Chrome™] v3.9.1
+
+* [https://chrome.google.com/webstore/detail/fnfnbeppfinmnjnjhedifcfllpcfgeea IE Tab Multi (Enhance)] v0.9.8.8
+
+* [https://chrome.google.com/webstore/detail/galfofdpepkcahkfobimileafiobdplb Tab Menu] v7
+
+* [https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom AdBlock] v2.4.24
+
+* [https://chrome.google.com/webstore/detail/gjgaiolkeejfnpjmjdgnngeibagbbkdo Chrome IE] v1.4.3
+
+* [https://chrome.google.com/webstore/detail/gjnmclkoadjdljnfmbnnhaahilafoeji GmailTeX] v3.1.1
+
+* [https://chrome.google.com/webstore/detail/gkclkgcclpfikdlamgnjmkhiabhincio Knol Buddy (by Google)] v1.4
+
+* [https://chrome.google.com/webstore/detail/glhhlafadlhkgbklgbjnmblfhnkfknbm Proxy SwitchyPlus汉化版] v1.7.2.2
+
+* [https://chrome.google.com/webstore/detail/gmbgaklkmjakoegficnlkhebmhkjfich Google Calendar (by Google)] v0.7
+
+* [https://chrome.google.com/webstore/detail/halnfobaneppemjnonmmhngbfifnafgd ChromeVis（由 Google 提供）] v2.4.4
+
+* [https://chrome.google.com/webstore/detail/hclgegipaehbigmbhdpfapmjadbaldib Website Blocker (Beta)] v0.0.19
+
+* [https://chrome.google.com/webstore/detail/hehijbfgiekmjfkfjpbkbammjbdenadd IE Tab] v2.7.14.1
+
+* [https://chrome.google.com/webstore/detail/hfkjfjdafcickoihmmemeodmbomjbkfn IPv6] v1.7.1
+
+* [https://chrome.google.com/webstore/detail/hflijhiplopgohlabbkednoilbnflddk Mail Checker Plus for Google Mail™ (Beta)] v1.2.4.7
+
+* [https://chrome.google.com/webstore/detail/hhcknjkmaaeinhdjgimjnophgpbdgfmg Reader Plus] v3.7.3
+
+* [https://chrome.google.com/webstore/detail/hinehgnhgiohbfpbpgkjnelkcgdkcgha Select To Get Maps] v1.1.1
+
+* [https://chrome.google.com/webstore/detail/hkhggnncdpfibdhinjiegagmopldibha Checker Plus for Google Calendar™] v4.9.3
+
+* [https://chrome.google.com/webstore/detail/iblijlcdoidgdpfknkckljiocdbnlagk goo.gl URL Shortener] v0.7.1
+
+* [https://chrome.google.com/webstore/detail/icjoojefonodoppdjffjpifjjgmmdgjb QR Url] v1.0
+
+* [https://chrome.google.com/webstore/detail/jaikcnhlohebodlpkmjepipngegjbfpg 超级拖曳] v1.7.3.0
+
+* [https://chrome.google.com/webstore/detail/jeoacafpbcihiomhlakheieifhpjdfeo Disconnect] v3.1.1
+
+* [https://chrome.google.com/webstore/detail/jfmjfhklogoienhpfnppmbcbjfjnkonk RealPlayer HTML5Video Downloader Extension] v1.5
+
+* [https://chrome.google.com/webstore/detail/jkkenjlnjfemconejajakbijbheoffli Yoono - Twitter, Facebook, LinkedIn, YouTube™] v0.2.6.10
+
+* [https://chrome.google.com/webstore/detail/jpkfjicglakibpenojifdiepckckakgk Gestures for Chrome(TM)] v1.12.1
+
+* [https://chrome.google.com/webstore/detail/khbjahpecnkenngkidhioicnfpakihgo Super Full Feeds for Google Reader™] v1.2.2
+
+* [https://chrome.google.com/webstore/detail/lmnganadkecefnhncokdlaohlkneihio Enable Copy] v1.0
+
+* [https://chrome.google.com/webstore/detail/mafnkhhfaadhhhdcijjnajeceeppebdg MagicCube FeedStore for Google Reader] v0.21
+
+* [https://chrome.google.com/webstore/detail/miedgcmlgpmdagojnnbemlkgidepfjfi IE Tab Classic] v0.9.8
+
+* [https://chrome.google.com/webstore/detail/mlomiejdfkolichcflejclcbmpeaniij Ghostery] v2.4.0
+
+* [https://chrome.google.com/webstore/detail/mmiboiefncpfjihjdedpaoammipkilla Grass] v1.0
+
+* [https://chrome.google.com/webstore/detail/ndhinffkekpekljifjkkkkkhopnjodja feedly xt] v5.4.384
+
+* [https://chrome.google.com/webstore/detail/nlimegchokjpodijcknpbnhphchemmjm WikiPreview] v0.3
+
+* [https://chrome.google.com/webstore/detail/nmidkjogcjnnlfimjcedenagjfacpobb FreshStart - Cross Browser Session Manager] v1.5.4
+
+* [https://chrome.google.com/webstore/detail/noocneohefmdhonidldnlhaainpiomkp Cooliris] v1.12.3.48771
+
+* [https://chrome.google.com/webstore/detail/oaeemlcgfejmkohaddjlhnmaneccmbfb Google Reader Checker] v0.2.3
+
+* [https://chrome.google.com/webstore/detail/oangcciaeihlfmhppegpdceadpfaoclj SEO for Chrome] v0.9.3
+
+* [https://chrome.google.com/webstore/detail/oegccbahkmmgpgidhfggehhahpepgcli Rocket Launcher] v2.3
+
+* [https://chrome.google.com/webstore/detail/ognampngfcbddbfemdapefohjiobgbdl Speed Tracer (by Google)] v0.24
+
+* [https://chrome.google.com/webstore/detail/ohjbahdiefkongnnfdjklkdbhbhijehj Q For Later] v1.0.2
+
+* [https://chrome.google.com/webstore/detail/oiplkfaidhjklglajdpfehoagkmlcakh Pig Toolbox] v1.0.1.1
+
+* [https://chrome.google.com/webstore/detail/okanipcmceoeemlbjnmnbdibhgpbllgc Google Quick Scroll] v1.8
+
+* [https://chrome.google.com/webstore/detail/ookhcbgokankfmjafalglpofmolfopek Google Calendar Checker（由 Google 提供）] v1.2.2
+
+* [https://chrome.google.com/webstore/detail/pbckjfkhmpfjnhghgmmkbhdpinbmjpeg Auto Download for Filesonic, Rapidshare etc.] v0.0.0.5
+
+* [https://chrome.google.com/webstore/detail/pengoopmcjnbflcjbmoeodbmoflcgjlk 发布到博客！] v0.2
+
+* [https://chrome.google.com/webstore/detail/pnngeaoibaajihakbnngcfecdkinjjpf PostRank Extension] v0.1.7
+
+* [https://chrome.google.com/webstore/detail/pokekecininnhejfkgcbnekjddnepope Domain Availability Checker & Whois Lookup] v2.2.0
+
+* [https://chrome.google.com/webstore/detail/gmpllenfapkfpdkahamlbmbichihpmmg 迅雷、快车、旋风专用链自动破解] v3.9.6
+
+* [https://chrome.google.com/webstore/detail/mgijmajocgfcbeboacabfgobmjgjcoja Google Dictionary (by Google)] v3.0.4
+
+* [https://chrome.google.com/webstore/detail/ojmmnceaidnmminjjffpndcbdibelgam Thin Scroll Bar] v1.1
+
+
+'''Apps: 50'''
+* [https://chrome.google.com/webstore/detail/apdfllckaahabafndbhieahigkjlhalf Google 文档] v4.7
+
+* [https://chrome.google.com/webstore/detail/bfmbadcfdhiklafcdohpfphhhakmiakk Google 网上论坛] v1.1
+
+* [https://chrome.google.com/webstore/detail/boeajhmfdjldchidhphikilcgdacljfm Facebook] v1
+
+* [https://chrome.google.com/webstore/detail/dllkocilcinkggkchnjgegijklcililc Google News] v2.1
+
+* [https://chrome.google.com/webstore/detail/ejidjjhkpiempkbhmpbfngldlkglhimk 离线 Google Mail] v1.13
+
+* [https://chrome.google.com/webstore/detail/fdcpedjbhjpalhdjkbchahkcceaikoda 元素和物理] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/fkkkonejampkaeiifkgnelenjgeiafmj 富士通后卫] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/foohbilkkdnmfpecjkhcdiddappljefi 继续运行] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/gcmhlmapohffdglflokbgknlknnmogbb The QR Code Generator] v0.2.1
+
+* [https://chrome.google.com/webstore/detail/hfedleddhfahcobdlpcnlgkccgapmhmj IssueBurner] v0.81
+
+* [https://chrome.google.com/webstore/detail/hiigmadmngbpbmacbkfngpkjfmmpagfk jsFiddle] v2.0.2
+
+* [https://chrome.google.com/webstore/detail/hmhilnpniljpeembobdnlmdmcmllbhll 匿名电子邮件] v1.5
+
+* [https://chrome.google.com/webstore/detail/jeclmehkhpookgkhkecnaanahhoglakj LineBall] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/jommidhbgbbbbjddhmajdmeajfleineg 纳米忍者] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/knchnnobchplhcondheebifmidjopaeo 荒原后卫] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/mpegcjgnjllooimlcfdnphhccfnmhfem 十字军坦克] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/pjjhlfkghdhmijklfnahfkpgmhcmfgcm Google Reader] v4.1
+
+* [https://chrome.google.com/webstore/detail/bddhcbcefccaggaloclldffhobmecjfj Private Joe] v1.3
+
+* [https://chrome.google.com/webstore/detail/gfnjgbmalioedafbpahlobnkgbjkllod 波] v1.0.5
+
+* [https://chrome.google.com/webstore/detail/aknpkdffaafgjchaibgeefbgmgeghloj Angry Birds] v1.1.2
+
+* [https://chrome.google.com/webstore/detail/bckgbjfbcoijiclncbjhbfiklhbpkogi What's My Public IP] v2
+
+* [https://chrome.google.com/webstore/detail/bgecckpiojpahjlndlofcljgacdfkifk Teambox] v0.1.2
+
+* [https://chrome.google.com/webstore/detail/blpcfgokakmgnkcojhhkbfbldkacnbeo YouTube] v4.2
+
+* [https://chrome.google.com/webstore/detail/ccfphbgnmmhjfalloifioeeeokjemobf My IP address] v1.23
+
+* [https://chrome.google.com/webstore/detail/cdgghbbgmhcpidlmnepkbihehhkmjomc Ge.tt] v0.99
+
+* [https://chrome.google.com/webstore/detail/decdfngdidijkdjgbknlnepdljfaepji Read Later Fast] v1.3.3
+
+* [https://chrome.google.com/webstore/detail/dfdlnlenokgjjchimonbekcmnofmlibg 20 Things I Learned About Browsers & the Web] v0.91
+
+* [https://chrome.google.com/webstore/detail/dljjdghcikmaacogeloeooafjopponic Mapnificent] v1.0.1
+
+* [https://chrome.google.com/webstore/detail/eboilkbecbgepecmaaicggbpnlbcfagj Gravity] v1
+
+* [https://chrome.google.com/webstore/detail/ejjicmeblgpmajnghnpcppodonldlgfn Google 日历] v4.1.3
+
+* [https://chrome.google.com/webstore/detail/ejnkaeblpdcamcioiiabclakabcbjmbl Box - 5 GB Free Storage] v1.1.6
+
+* [https://chrome.google.com/webstore/detail/emgdobmndjcmnciellikkhigcbpgpklk Minus] v1.22
+
+* [https://chrome.google.com/webstore/detail/gheikhdfflhlbemfmhcfpeblehemeklp Planetarium] v1.1.1
+
+* [https://chrome.google.com/webstore/detail/gpamkbhofeehomgnflocnjjcmcfibone Google Project Hosting] v1
+
+* [https://chrome.google.com/webstore/detail/gpdnhfkfjahmjenbddackhhelemkmejp What's My DNS?] v1.0.0.1
+
+* [https://chrome.google.com/webstore/detail/jfgfmoonhalhgbpeoffnehkedjhgoeno 280 Slides] v0.9
+
+* [https://chrome.google.com/webstore/detail/kcbhlmpooaopnafdpdcloohhkgipaakp CloudApp™] v1.6
+
+* [https://chrome.google.com/webstore/detail/kfjjpjjnmkhalkjiaomecjddeapodgob ToutApp] v1
+
+* [https://chrome.google.com/webstore/detail/khpikpdaalmlcipfphefaajfiofglcma 重力鸭] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/lneaknkopdijkpnocmklfnjbeapigfbh Google 地图] v5.2.1
+
+* [https://chrome.google.com/webstore/detail/mfghjfmahpjlnagobelgjhgedbmngaoj Check It Later] v1.3.2
+
+* [https://chrome.google.com/webstore/detail/mmfklpmdfldnnjbkdmamhokiphfkfieg Sticky Notes] v1.4
+
+* [https://chrome.google.com/webstore/detail/mmimngoggfoobjdlefbcabngfnmieonb Google Books] v0.0.0.5
+
+* [https://chrome.google.com/webstore/detail/nfakdllpdfjjbfommlcnfkedmbigkfdo Jolicloud] v1.0.5
+
+* [https://chrome.google.com/webstore/detail/odinfnlgejbkijmcjhkohfimnjbopplb 维基日刊] v1.3
+
+* [https://chrome.google.com/webstore/detail/ohhbomnbakaahalcclnhgkdncibanmgd QR Code Maker and URL Shortner] v2.3
+
+* [https://chrome.google.com/webstore/detail/ojjiifnmilcfnemcehaoengppkkidlhb Q For Later] v1.0
+
+* [https://chrome.google.com/webstore/detail/peiamebfimhocbnbdfdihoehhidbifko 便签纸] v1.1.0
+
+* [https://chrome.google.com/webstore/detail/pjkljhegncpnkpknbcohdijeoejaedia Gmail] v6.1.3
+
+* [https://chrome.google.com/webstore/detail/pkapabkafddgkjigekjnffbbiknichpp Map Downloader] v1.0.0.6
+
+
+
+Exported with [https://chrome.google.com/webstore/detail/chdafcbnfkfenoeejpaeenpdamhmalhe Chrome Extensions Share]
