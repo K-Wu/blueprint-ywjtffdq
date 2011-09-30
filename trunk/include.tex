@@ -29,12 +29,14 @@
 \usepackage{paralist}
 
 
+%把subsection改成subsubsection风格
 \makeatletter
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
                                      {-3.25ex\@plus -1ex \@minus -.2ex}%
                                      {1.5ex \@plus .2ex}%
                                      {\normalfont\normalsize\bfseries}}
 
+%创建自定义概述
 \newcommand\hatabstractname{Abstract}
 \if@titlepage
   \newenvironment{hatabstract}{%
@@ -47,6 +49,8 @@
       \end{center}}%
      {\par\vfil\null\endtitlepage}
 \else
+
+%创建自定义概述
   \newenvironment{hatabstract}{%
       \if@twocolumn
         \section*{\hatabstractname}%
@@ -68,42 +72,62 @@
 \newcommand{\superref}[1]{#1(在\pageref{#1}页的\ref{#1}上)}
 
 
+%经典配色方案
 %\newcommand{\hatb}[1]{\colorbox{blue!100}{#1}}
 %\newcommand{\hatx}[1]{\colorbox{yellow!100}{#1}}
 %\newcommand{\hatm}[1]{\colorbox{green!100}{#1}}
 %\newcommand{\hatn}[1]{\colorbox{violet!100}{#1}}
 
-\newcommand{\hatb}[1]{\colorbox{orange!100}{#1}}
-\newcommand{\hatx}[1]{\colorbox{yellow!100}{#1}}
-\newcommand{\hatm}[1]{\colorbox{cyan!100}{#1}}
-\newcommand{\hatn}[1]{\colorbox{lightgray!100}{#1}}
 
+%小清新配色方案
+%\newcommand{\hatb}[1]{\colorbox{orange!100}{#1}}
+%\newcommand{\hatx}[1]{\colorbox{yellow!100}{#1}}
+%\newcommand{\hatm}[1]{\colorbox{cyan!100}{#1}}
+%\newcommand{\hatn}[1]{\colorbox{lightgray!100}{#1}}
 
-\newcommand{\noa}{X}
-\newcommand{\BA}{NI}
+%黑白配色方案
+\newcommand{\hatb}[3]{\colorbox{gray!75}{ver#2by#1BJB #3}}
+\newcommand{\hatx}[2]{\colorbox{gray!75}{ver#1byXZH #2}}
+\newcommand{\hatm}[3]{\colorbox{gray!25}{ver#2by41 #3 #1}}
+\newcommand{\hatn}[1]{\colorbox{gray!25}{#1}}
+
+%从一下开始所有未注明不可删除注释全删除
+
+%\newcommand{\noa}{X}
+%\newcommand{\BA}{NI}
 \newcommand{\nob}{Abstract}
 \newcommand{\nobhat}{说明}
 \newcommand{\BB}{Beta}
-\newcommand{\noc}{此处的空白恰到好处，正是本文档的精华之处}
-\newcommand{\noticewave}{留意波浪线\\加波浪线内容未确定}
-\newcommand{\BC}{It's a Beta version.}
-\newcommand{\noprint}{此份文档不被用来打印。\\This file/document is not used to print.}
-\newcommand{\origintal}{此份文档是原始的。\\This file/document is ORIGINTAL.}
-\newcommand{\BD}{appendix}
-\newcommand{\nod}{appendix}
-\newcommand{\BE}{Undefined}
-\newcommand{\noe}{Undefined}
-\newcommand{\noehat}{HAWX AT TEAM\thanks{一份完整的致谢名单在A.3致谢PAGE\pageref{thanks}上}}
-\newcommand{\BF}{\today}
-\newcommand{\nof}{\today}
-\newcommand{\nofhat}{May 2011}
+\newcommand{\noc}{\par 此处的空白恰到好处，正是本文档的精华之处}
+\newcommand{\noticewave}{\par 留意波浪线\par 加波浪线内容未确定}
+\newcommand{\BC}{\par 这是一个不稳定的版本}
+
+%此三行不可被删除
+%\newcommand{\noprint}{\par 此份文档不被用来打印。\par This file/document is not used to print.}
+%\newcommand{\origintal}{\par 此份文档是原始的。\par This file/document is ORIGINTAL.}
+
+
+%\newcommand{\BD}{appendix}
+%\newcommand{\nod}{appendix}
+
+%\newcommand{\BE}{Undefined}
+%\newcommand{\noe}{Undefined}
+
+\newcommand{\zuozhe}{Undefined}
+
+
+%\newcommand{\noehat}{HAWX AT TEAM\thanks{一份完整的致谢名单在A.3致谢PAGE\pageref{thanks}上}}
+%\newcommand{\BF}{\today}
+%\newcommand{\nof}{\today}
+
+%\newcommand{\nofhat}{May 2011}
 
 
 
-\newlength{\seplength}
-\settowidth{\seplength}{*}
-\newcommand{\seperator}{\whiledo{\lengthtest{\linewidth>\seplength}{\linewidth-\seplength-1mm} *}}
+%\newlength{\seplength}
+%\settowidth{\seplength}{*}
+%\newcommand{\seperator}{\whiledo{\lengthtest{\linewidth>\seplength}{\linewidth-\seplength-1mm} *}}
 
 
 \typein[\whatfiletoinput]{0.type in a configuration.``stable''``beta''``custom''}
-\input{\whatfiletoinput} 
+\input{\whatfiletoinput}
