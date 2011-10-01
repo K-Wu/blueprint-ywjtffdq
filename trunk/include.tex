@@ -147,7 +147,7 @@
 \renewcommand{\hatabstractname}{\CN}               %重命名\hatabstractname为\CN
 \begin{lrbox}{\contentofabstract}                  %设置\contentofabstract的内容为\CN
 \begin{minipage}{\linewidth}                       %此处用lrbox定义\contentofabstract
-\CN                                                %并在lrbox内部创建一个minipage
+\CC                                                %并在lrbox内部创建一个minipage
 \end{minipage}                                     %minipage的宽度定义为\linewidth
 \end{lrbox}                                        %这样做是为了支持\par分段命令
 \setboolean{configurationboolean}{false}}{%        %设置configurationboolean布尔寄存器的布尔值为false
@@ -157,7 +157,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Issue fixing区
+%Issue fixing区   此部分务必放在\begin{document}的下面
 \newsavebox{\issue}
 \begin{lrbox}{\issue}
 \begin{minipage}{\linewidth}
