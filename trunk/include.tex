@@ -1,11 +1,10 @@
 % # -*- coding: utf-8 -*-
 %%include
-%%beta,stable,custom
-%%abstract2,main,appendix,appendix2
-%%info.png,readme.jpg
+%%main,appendix
 \documentclass{article}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%宏包区
 %中文支持宏包
 \usepackage{xeCJK}
 \setCJKmainfont[BoldFont=SimHei]{YouYuan}
@@ -27,8 +26,11 @@
 \usepackage[left=1.6cm,right=2cm,top=1.6cm,bottom=2cm]{geometry}
 \usepackage{ifthen}
 \usepackage{paralist}
+\usepackage{fancybox}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%修改风格区
 %把subsection改成subsubsection风格
 \makeatletter
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
@@ -64,14 +66,21 @@
       {\if@twocolumn\else\endquotation\fi}
 \fi
 \makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%新建section命令区
+%新建的\hatsubsection带有两个参数，第一个参数默认值为\hatn{ver0}，创建section标题并创建label
+%两个参数都用作section的标题，而第二个参数独自作为书签中显示的内容和创建的标签的内容
 \newcommand{\hatsubsection}[2][\hatn{ver0}]{\subsection{\texorpdfstring{#2#1}{#2}}\label{#2}}
 \newcommand{\hatsubsubsection}[2][\hatn{ver0}]{\subsubsection{\texorpdfstring{#2#1}{#2}}\label{#2}}
-\newcommand{\superref}[1]{#1(在\pageref{#1}页的\ref{#1}上)}
+%新建一个\superef命令，一个参数，寻找与这个参数同名的labelN，并读取这个labelN的页数P和sectionB
+%然后输出N在P页上的B
+\newcommand{\superref}[1]{#1(在\pageref{#1}页上的\ref{#1})}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%修改配色方案区   ！重新启用经典配色方案或小清新配色方案需要重写代码！
 %经典配色方案
 %\newcommand{\hatb}[1]{\colorbox{blue!100}{#1}}
 %\newcommand{\hatx}[1]{\colorbox{yellow!100}{#1}}
@@ -90,47 +99,93 @@
 \newcommand{\hatx}[2]{\colorbox{gray!75}{ver#1byMR.XU #2}}
 \newcommand{\hatm}[3]{\colorbox{gray!25}{ver#2by41 #3 #1}}
 \newcommand{\hatn}[1]{\colorbox{gray!25}{#1}}
+\newcommand{\hati}[4]{\\#1\\\colorbox{gray!25}{date #2 status #4}\\\colorbox{gray!50}{contents #3}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%从下一版本开始所有未注明不可删除注释全删除
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%新建命令区
+\newcommand{\BC}{这是一个不稳定的版本\\}
+\newcommand{\noticewave}{留意波浪线\\加波浪线内容未确定}
 
-%\newcommand{\noa}{X}
-%\newcommand{\BA}{NI}
-\newcommand{\nob}{Abstract}
-\newcommand{\nobhat}{说明}
-\newcommand{\BB}{Beta}
-\newcommand{\BC}{\par 这是一个不稳定的版本}
-\newcommand{\noticewave}{\par 留意波浪线\par 加波浪线内容未确定}
-
-\newcommand{\SB}{stable}
-%\newcommand{\noc}{\par 此处的空白恰到好处，正是本文档的精华之处}
 \newcommand{\SC}{\par 这是一个相对稳定的版本}
 
-%此三行不可被删除
-%\newcommand{\noprint}{\par 此份文档不被用来打印。\par This file/document is not used to print.}
-%\newcommand{\origintal}{\par 此份文档是原始的。\par This file/document is ORIGINTAL.}
+\newcommand{\noprint}{\par 此份文档不被用来打印。\par This file/document is not used to print.} %they are hidden
+\newcommand{\origintal}{\par 此份文档是原始的。\par This file/document is ORIGINTAL.}           %they are hidden
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}                                   %开始文档（我是卧底）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%条件循环区
+\newboolean{configurationboolean}                  %新建布尔寄存器
+\newboolean{issueboxappear}
+\setboolean{configurationboolean}{true}            %设置\configurationboolean布尔寄存器的布尔值为true
+\setboolean{issueboxappear}{false}
+\newsavebox{\contentofabstract}                    %创建新的盒子
 
+\whiledo{\boolean{configurationboolean}}{%         %判断\configurationboolean是否为true，如果为true执行下列
+\typein[\configuration]{0.type in a configuration.``stable''``beta''``custom''}
+%                                                  %
+\ifthenelse{\equal{\configuration}{stable}}{%      %如果\configuration字符串等于stable，那么
+\renewcommand{\hatabstractname}{stable}            %重命名\hatabstractname为stable
+\sbox{\contentofabstract}{\SC}                     %设置\contentofabstract的内容为\SC
+\setboolean{configurationboolean}{false}}{%        %设置configurationboolean布尔寄存器的布尔值为false
+\typeout{stable...pass}}                           %否则输入：stable...pass
+%                                                  %
+\ifthenelse{\equal{\configuration}{beta}}{%        %如果\configuration字符串等于beta，那么
+\renewcommand{\hatabstractname}{beta}              %重命名\hatabstractname为beta
+\begin{lrbox}{\contentofabstract}                  %开始定义盒子的内容，使用lrbox
+\begin{minipage}{\linewidth}                       %在lrbox中开始minipage，设置宽度为行宽
+\BC\noticewave                                     %内容 \BC \noticewave
+\end{minipage}                                     %结束minipage
+\end{lrbox}                                        %结束lrbox
+\setboolean{configurationboolean}{false}}{%        %设置configurationboolean布尔寄存器的布尔值为false
+\setboolean{issueboxappear}{true}                  %设置issueboxappear布尔寄存器的布尔值为true
+\typeout{beta...pass}}                             %否则输入：beta...pass
+%                                                  %
+\ifthenelse{\equal{\configuration}{custom}}{       %如果\configuration字符串等于custom，那么首先设置\CN,\CC
+\typein[\CN]{a.type in the hat abstract name,E.G.you can use command``BN''``SN''}
+\typein[\CC]{b.Typein abstract contents.E.G.You can use command``noprint''``origintal''``BC''``noticewave''}
+\renewcommand{\hatabstractname}{\CN}               %重命名\hatabstractname为\CN
+\begin{lrbox}{\contentofabstract}                  %设置\contentofabstract的内容为\CN
+\begin{minipage}{\linewidth}                       %此处用lrbox定义\contentofabstract
+\CN                                                %并在lrbox内部创建一个minipage
+\end{minipage}                                     %minipage的宽度定义为\linewidth
+\end{lrbox}                                        %这样做是为了支持\par分段命令
+\setboolean{configurationboolean}{false}}{%        %设置configurationboolean布尔寄存器的布尔值为false
+\setboolean{issueboxappear}{true}                  %设置issueboxappear布尔寄存器的布尔值为true
+\typeout{custom...pass}}}                          %否则，输入：custom...pass
+                                                   %若为false，退出循环
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\newcommand{\BD}{appendix}
-%\newcommand{\nod}{appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Issue fixing区
+\newsavebox{\issue}
+\begin{lrbox}{\issue}
+\begin{minipage}{\linewidth}
+\shadowbox{以下内容未确定：}
+\hati{表达特点：}{2011-08-24}{修辞手法和描写方法}{NI}
+\hati{表达效果：}{2011-08-24}{修辞手法和描写方法的作用}{NI}
+\hati{照应的作用：}{2011-08-24}{前后照应，（使）结构严谨，表现中心}{NI}
+\hati{作者的思想感情<记叙文>}{2011-09-26}{往往在文章结尾出现}{基本修补成功，已放入文档}
+\hati{安排详略的作用<记叙文>}{2011-09-26}{为了更好的表现中心}{NI}
+\hati{议论文语言特点-议论文语言严密性：\superref{议论文语言特点}}{2011-09-26}{}{基本修补成功}
+\end{minipage}
+\end{lrbox}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\newcommand{\BE}{Undefined}
-%\newcommand{\noe}{Undefined}
-
-\newcommand{\zuozhe}{Undefined}
-
-
-%\newcommand{\noehat}{HAWX AT TEAM\thanks{一份完整的致谢名单在A.3致谢PAGE\pageref{thanks}上}}
-%\newcommand{\BF}{\today}
-%\newcommand{\nof}{\today}
-
-%\newcommand{\nofhat}{May 2011}
-
-
-
-%\newlength{\seplength}
-%\settowidth{\seplength}{*}
-%\newcommand{\seperator}{\whiledo{\lengthtest{\linewidth>\seplength}{\linewidth-\seplength-1mm} *}}
-
-
-\typein[\whatfiletoinput]{0.type in a configuration.``stable''``beta''``custom''}
-\input{\whatfiletoinput}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%创建文档区
+\title{语文笔记}                                   %定义标题为语文笔记
+\author{Undefined}                                 %定义作者为Undefined
+\date{\today}                                      %定义时间为\today
+\pagenumbering{alph}                               %页码编号为小写字母
+\maketitle                                         %创建标题
+\begin{hatabstract}                                %开始hatabstract环境
+\usebox{\contentofabstract}                        %使用\contentofabstract盒子作为hatabstract环境的内容
+%如果想连用两个盒子并且中间另起新行，请打一个回车（两个\usebox中间带一个空行）
+\end{hatabstract}\label{abstractformal}            %结束hatabstract环境，此处标签设置为abstractformal
+\ifthenelse{\boolean{issueboxappear}}{\usebox{\issue}}{}
+%..................................................%使用\issue盒子
+\include{main}                                     %打入main.tex
+\include{appendix}                                 %打入appendix.tex
+\end{document}                                     %结束文档
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
